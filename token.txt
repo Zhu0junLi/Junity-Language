@@ -1,0 +1,71 @@
+const char *TokenList[]={
+	"NUM",				//数字
+	"STR",				//字符串
+	"ID",				//标识符
+	"VAR",				//var定义
+	"IF",				//if
+	"ELSE",				//else
+	"WHILE",			//while
+	"FOR",				//for
+	"FUN",				//fun
+	"TRUE",				//true
+	"FALSE",			//false
+	"CONTINUE",			//continue
+	"BREAK",			//break
+	"RETURN",			//return
+	"NULL",				//null
+	"GETTER",
+	"SETTER",
+	"OPERATOR",
+	"CLASS",			//class
+	"SELF",				//self
+	"IS",				//is
+	"IN",
+	"TO",
+	"STATIC",			//static
+	"SUPER",			//super
+	"IMPORT",			//import
+	"PUBLIC",			//public
+	"PRIVATE",			//private
+	"COMMA",			//,
+	"COLON",			//:
+	"LEFT_PAREN",		//(
+	"RIGHT_PAREN",		//)
+	"LEFT_BRACKET",		//[
+	"RIGHT_BRACKET",	//]
+	"LEFT_BRACE",		//{
+	"RIGHT_BRACE",		//}
+	"DOT",				//.
+	"SECTION",			//~(区间选择
+	"ADD",				//+
+	"ADD_ASSIGN",		//+=
+	"SELF_ADD",			//++
+	"SUB",				//-
+	"SELF_SUB",			//--
+	"SUB_ASSIGN",		//-=
+	"MUL",				//*
+	"MUL_ASSIGN",		//*=
+	"DIV",				// /(除号)
+	"DIV_ASSIGN",		// /=
+	"MOD",				//%
+	"MOD_ASSIGN",		//%=
+	"POW",				//^ 
+	"ASSIGN",			
+	"BIT_AND",			//&
+	"BIT_OR",			//|
+	"BIT_NOT",			//~(取反）
+	"BIT_SHIFT_RIGHT",	//>>
+	"BIT_SHIFT_LEFT",	//<<
+	"AND",				//&&
+	"OR",				//||
+	"NOT",				//!
+	"EQUAL",			//==
+	"NOT_EQUAL",		//!=
+	"GREATE",			//>
+	"GREATE_EQUAL",		//>=
+	"LESS",				//<
+	"LESS_EQUAL",		//<=
+	"QUESTION",			//?（三目运算符用）
+	"NONE",				//占位用
+	"END"				//EOF
+};

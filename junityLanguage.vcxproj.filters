@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{95b57074-c185-4e70-8fdb-31acf725ed9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vm">
+      <UniqueIdentifier>{c6836ff1-0e3b-404c-9128-cb0bb4279ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{9f3fef44-5736-4c9e-a968-ff01de402287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{9084e025-575a-427b-b757-dfbb0f355755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bignum">
+      <UniqueIdentifier>{dd0f62ca-5f54-46f5-850b-b147b16cc2b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="parser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="vm.cpp">
+      <Filter>vm</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="unicodeUtf8.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="core.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="junityLanguage.cpp" />
+    <ClCompile Include="header.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjString.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="module.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjFunc.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjList.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="unicodeUtf8.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="vm.h">
+      <Filter>vm</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="method.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjString.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="module.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="class.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFunc.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjList.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMap.h">
+      <Filter>object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="token.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
